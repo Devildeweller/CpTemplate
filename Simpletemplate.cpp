@@ -9,21 +9,20 @@ using namespace std;
 #define  endl "\n"
  
 const int m=100000007;
-
+const ll INF=LLONG_MAX >> 1;
 
 void solve(){
-	int t; cin >> t;
-	while(t--){
-		
-	}
+	
 }
  
-
 int main(){
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    cin.tie(NULL);cout.tie(NULL); 
  
-	solve();
+	int t=1;
+	//cin >> t;
+	while(t--)
+		solve();
     
     return 0;
 }

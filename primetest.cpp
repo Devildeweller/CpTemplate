@@ -10,8 +10,8 @@ bool isprime(int n){
 
 //prime generator
 bool prime[n + 1];
-void SieveOfEratosthenes(int n)
-{
+void SieveOfEratosthenes(int n){ 
+   prime[1]=0;
     memset(prime, true, sizeof(prime));
     for (int p = 2; p * p <= n; p++) {
         if (prime[p] == true) {
